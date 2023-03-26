@@ -1,0 +1,20 @@
+vi nodereg.json  
+{
+  "kind": "Node",
+  "apiVersion": "v1",
+  "metadata": {
+    "name": "<<worker-node1.example.com>>",
+    "labels": {
+      "name": "firstnode"
+    }
+  }
+}
+
+
+---
+kind: Node
+apiVersion: v1
+metadata:
+  name: "<<worker-node1.example.com>>"
+  labels:
+    name: firstnode
